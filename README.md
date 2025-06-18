@@ -67,7 +67,6 @@ drone-survey-management-system
 1. Clone the repository:
    ```
    git clone https://github.com/Sathvik-Malgikar/drone-survey-management-system.git
-   cd drone-survey-management-system
    ```
 
 2. Install the required dependencies:
