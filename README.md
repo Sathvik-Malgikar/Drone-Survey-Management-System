@@ -41,6 +41,7 @@ This project focuses on the mission management and reporting aspects of drone op
 ## Project Structure
 ```
 drone-survey-management-system
+├── frontend
 ├── src
 │   ├── main.py          # Entry point for the application
 │   ├── database.py      # Database management and operations
