@@ -42,6 +42,17 @@ This project focuses on the mission management and reporting aspects of drone op
 ```
 drone-survey-management-system
 ├── frontend
+│   ├── public/                # Static assets (index.html, favicon, etc.)
+│   ├── src/
+│   │   ├── components/        # Reusable UI components
+│   │   ├── pages/             # Application pages/views
+│   │   ├── services/          # API service calls
+│   │   ├── hooks/             # Custom React hooks
+│   │   ├── utils/             # Frontend utility functions
+│   │   ├── App.jsx            # Main application component
+│   │   └── index.jsx          # Entry point for the frontend
+│   ├── package.json           # Frontend dependencies and scripts
+│   └── vite.config.js         # Vite configuration (or similar build tool)
 ├── src
 │   ├── main.py          # Entry point for the application
 │   ├── database.py      # Database management and operations
